@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+.section-footer-style {
+  background-color: #2e2f42;
+}
+
+.logo-header, .logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-footer {  
+  color: #f4f4fd;
+}  
+
+.logo-header-style, 
+.logo-footer-style {
+  color: #4d5ae5;
+}
+
+.list-menu-style {
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.list-contacts {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.first-section {
+  background-color: #2e2f42;
+}
+
+.first-section-title {  
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+  text-align: center;    
+}
+
+.butt {
+  background-color: #4d5ae5; 
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.list-features-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.list-features-style {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.team-title {   
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.list-team {}
+
+.list-team-style {}
+
+.list-team-title {
+  font-weight: 500;
+  text-align: center;
+}
+
+.list-team-position {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;  
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card-project-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.card-project-zone {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.section-footer-style {
+  background: #2E2F42;
+}
+
+.section-footer-text-style {
+  color: #f4f4fd;
+  width: 264px;
+  font-weight: 400;
+}
+
+/*font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;*/
