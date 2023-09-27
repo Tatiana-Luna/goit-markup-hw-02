@@ -2,7 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: #2e2f42;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
+}
+
+.footer-wrapper {
+  color: #2e2f42;
 }
 
 .section-footer-style {
@@ -10,11 +14,13 @@ body {
 }
 
 .logo-header, .logo-footer {
+  color: #2e2f42;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -25,33 +31,47 @@ body {
 
 .logo-footer {  
   color: #f4f4fd;
-}  
+}
 
-.list-menu-style {
-  font-size: 16px;
-  font-weight: 500;
+.list-menu {
   list-style-type: none;
 }
 
+.list-menu-style .link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: none;
+}
+
+.list-menu-style:active {
+  color: #404BBF;
+}
+
 .list-contacts {
-  color: #434455;
   font-size: 16px;
   font-style: normal;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
+  list-style-type: none;
+}
+
+.list-contacts .link {
+  color: #434455;
   text-decoration-line: none;
 }
 
 .list-contacts .link:hover {
   color: #404bbf;
+  
     /* font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px; */
 }
 
-/* .first-section {
+.first-section {
   background-color: #2e2f42;
-} */
+}
 
 .first-section-title {  
   color: #ffffff;
@@ -59,8 +79,7 @@ body {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  text-align: center;
-  background-color: #2e2f42;    
+  text-align: center;    
 }
 
 .butt {
@@ -77,9 +96,9 @@ body {
   background-color: #404BBF;
 }
 
-/* .list-features li {
-  ;
-} */
+.list-features li {
+  list-style-type: none;
+}
 
 .list-features-title {
   font-size: 20px;
@@ -97,6 +116,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.wrapper-team {
+  background: #F4F4FD;
+}
+
 .team-title {   
   font-size: 36px;
   font-weight: 700;
@@ -108,9 +131,11 @@ body {
   color: #2e2f42;
 }
 
-/* .list-team {}
+.list-team {
+  list-style-type: none;
+}
 
-.list-team-style {} */
+/*.list-team-style {} */
 
 .list-team-title {
   font-size: 20px;
@@ -139,6 +164,10 @@ body {
   text-transform: capitalize;
 }
 
+.card-project {
+  list-style-type: none;
+}
+
 .card-project-title {
   font-size: 20px;
   font-weight: 500;
@@ -163,6 +192,7 @@ body {
   color: #f4f4fd;
   width: 264px;
   font-weight: 400;
+  width: 264px;
 }
 
 /*font-family: 'Raleway',
