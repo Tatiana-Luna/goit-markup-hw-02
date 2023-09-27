@@ -45,7 +45,7 @@ body {
 }
 
 ,
-.list-menu-style .link:active {
+.list-menu-style .link:focus {
   color: #404bbf;
 }
 
@@ -134,6 +134,7 @@ body {
 
 .list-team {
   list-style-type: none;
+  background-color: #ffffff;
 }
 
 /*.list-team-style {} */
@@ -192,6 +193,17 @@ body {
   background: #2e2f42;
 }
 
+.logo-style {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .logo-footer-style {
   color: #f4f4fd;
 }
@@ -201,6 +213,5 @@ body {
   width: 264px;
   font-weight: 400;
   letter-spacing: 0.02em;
-  width: 264px;
 }
 
