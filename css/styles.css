@@ -61,11 +61,11 @@ body {
   text-decoration-line: none;
 }
 
-.list-contacts-link:hover {
+.list-contacts-style a:hover {
   color: #404bbf;
 }
 
-.list-contacts-link:active {
+.list-contacts-style a:active {
   color: #404bbf;
 }
 
