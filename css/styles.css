@@ -5,7 +5,7 @@ body {
   background-color: #FFFFFF;
 }
 
-.footer-wrapper {
+.header-wrapper {
   color: #2e2f42;
 }
 
@@ -13,7 +13,7 @@ body {
   background-color: #2e2f42;
 }
 
-.logo-style{
+.logo-header{
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -40,33 +40,35 @@ body {
   letter-spacing: 0.02em;
   text-decoration-line: none;
 }
-.list-menu-style .link:hover {
+.list-menu-style a:hover {
   color: #404bbf;
 }
 
-,
-.list-menu-style .link:focus {
+.list-menu-style a:active {
   color: #404bbf;
 }
 
-.list-contacts li {
+.list-contacts {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.list-contacts-style {
   list-style-type: none;
 }
 
 .list-contacts-link a {
-  color: #434455;
+  color: #434455;  
   text-decoration-line: none;
 }
 
-.list-contacts a:hover {
+.list-contacts-link a:hover {
   color: #404bbf;
 }
 
-.list-contacts a:focus {
+.list-contacts-link a:active {
   color: #404bbf;
 }
 
@@ -193,7 +195,7 @@ body {
   background: #2e2f42;
 }
 
-.logo-style {
+.logo-footer {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
