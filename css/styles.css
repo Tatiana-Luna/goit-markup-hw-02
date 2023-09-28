@@ -37,11 +37,11 @@ body {
   text-decoration-line: none;
 }
 
-.list-menu-style a:hover {
+.list-menu-link:hover {
   color: #404bbf;
 }
 
-.list-menu-style a:active{
+.list-menu-link:focus {
   color: #404bbf;
 }
 
@@ -61,11 +61,11 @@ body {
   text-decoration-line: none;
 }
 
-.list-contacts-link a:hover {
+.list-contacts-link:hover {
   color: #404bbf;
 }
 
-.list-contacts-link a:active {
+.list-contacts-link:active {
   color: #404bbf;
 }
 
