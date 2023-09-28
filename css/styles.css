@@ -32,7 +32,7 @@ body {
   list-style-type: none;
 }
 
-.list-menu-style .link {
+.list-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -40,11 +40,12 @@ body {
   letter-spacing: 0.02em;
   text-decoration-line: none;
 }
-.list-menu-style a:hover {
+
+.list-menu-link:hover {
   color: #404bbf;
 }
 
-.list-menu-style a:active {
+.list-menu-link:active {
   color: #404bbf;
 }
 
@@ -59,16 +60,16 @@ body {
   list-style-type: none;
 }
 
-.list-contacts-link a {
+.list-contacts-link {
   color: #434455;  
   text-decoration-line: none;
 }
 
-.list-contacts-link a:hover {
+.list-contacts-link:hover {
   color: #404bbf;
 }
 
-.list-contacts-link a:active {
+.list-contacts-link:active {
   color: #404bbf;
 }
 
@@ -95,7 +96,7 @@ body {
   letter-spacing: 0.04rem;
 }
 
-.butt:hover, .butt:focus {
+.butt:hover, .butt:active {
   background-color: #404BBF;
 }
 
@@ -140,7 +141,7 @@ body {
 
 .list-team-style {
   background-color: #ffffff;
-} */
+}
 
 .list-team-title {
   font-size: 20px;
