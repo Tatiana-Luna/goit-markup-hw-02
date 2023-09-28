@@ -41,7 +41,7 @@ body {
   color: #404bbf;
 }
 
-.list-menu-link:active {
+.list-menu-link:focus {
   color: #404bbf;
 }
 
@@ -65,7 +65,7 @@ body {
   color: #404bbf;
 }
 
-.list-contacts-link:active {
+.list-contacts-link:focus {
   color: #404bbf;
 }
 
