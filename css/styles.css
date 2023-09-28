@@ -136,19 +136,19 @@ body {
 
 .list-team {
   list-style-type: none;
-  background-color: #ffffff;
 }
 
-/*.list-team-style {} */
+.list-team-style {
+  background-color: #ffffff;
+} */
 
 .list-team-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .list-team-position {
@@ -212,8 +212,8 @@ body {
 
 .section-footer-text-style {
   color: #f4f4fd;
-  width: 264px;
   font-weight: 400;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
