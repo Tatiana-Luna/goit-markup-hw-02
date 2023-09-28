@@ -9,10 +9,6 @@ body {
   color: #2e2f42;
 }
 
-.section-footer-style {
-  background-color: #2e2f42;
-}
-
 .logo-header{
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -96,7 +92,7 @@ body {
   letter-spacing: 0.04rem;
 }
 
-.butt:hover, .butt:active {
+.butt:hover, .butt:focus {
   background-color: #404BBF;
 }
 
@@ -198,7 +194,7 @@ body {
 
 .logo-footer {
   color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
